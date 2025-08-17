@@ -2,14 +2,17 @@
 __pycache__/
 *.py[codz]
 *$py.class
+# Ignore all log files
+*.log
+# Ignore logs directory
+logs/
+regressionlogs/
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .venv
-.logs
-.regressionlogs
 .Python
 build/
 develop-eggs/
